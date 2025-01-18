@@ -7,14 +7,14 @@ import Home from './Components/Home';
 import Recipe from './Components/Recipe';
 import Contact from './Components/Contact';
 import Reservation from './Components/Reservation';
-import { BrowserRouter, Routes, Route, } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, HashRouter, } from 'react-router-dom';
 
 function App() {
 
 
   return (
     <>
-     <BrowserRouter>
+     <HashRouter>
     <Routes>
       <Route extract path='/' element={<Home/>}/>
       <Route extract path='about' element={<About/>}/>
@@ -24,7 +24,7 @@ function App() {
       <Route extract path='blog' element={<Blog/>}/>
       <Route extract path='contact' element={<Contact/>}/>
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </>
   )
 }
