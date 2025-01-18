@@ -7,7 +7,7 @@ import Home from './Components/Home';
 import Recipe from './Components/Recipe';
 import Contact from './Components/Contact';
 import Reservation from './Components/Reservation';
-import { BrowserRouter, Routes, Route, HashRouter, } from 'react-router-dom';
+import { HashRouter, Routes, Route, } from 'react-router-dom';
 
 function App() {
 
