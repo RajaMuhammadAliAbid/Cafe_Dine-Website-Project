@@ -55,7 +55,7 @@ function Home() {
                                 {/* Heros Section */}
       {/* Header */}
       <div className='relative w-full h-auto'>
-        <img className='w-full h-screen bg-cover ' src={heroImage} alt="" />
+        <img className='w-full h-auto bg-cover ' src={heroImage} alt="" />
 
        {/* NavBar */}
       <nav className='absolute z-10 w-full top-0 left-0 flex justify-between px-4 lg:px-12 py-2
@@ -71,27 +71,27 @@ function Home() {
             </li>
             <li className='mx-4 my-6 lg:my-0'>
                 <Link className='cursor-pointer hover:bg-red-600 rounded-md transition-all p-1'
-                 to="About">About</Link>
+                 to="/about">About</Link>
             </li>
             <li className='mx-4 my-6 lg:my-0'>
                 <Link className='cursor-pointer hover:bg-red-600 rounded-md transition-all p-1'
-                 to="Recipe">Recipes</Link>
+                 to="/recipe">Recipes</Link>
             </li>
             <li className='mx-4 my-6 lg:my-0'>
                 <Link className='cursor-pointer hover:bg-red-600 rounded-md transition-all p-1'
-                 to="Gallery">Gallery</Link>
+                 to="/gallery">Gallery</Link>
             </li>
             <li className='mx-4 my-6 lg:my-0'>
                 <Link className='cursor-pointer hover:bg-red-600 rounded-md transition-all p-1'
-                 to="Reservation">Reservation</Link>
+                 to="/reservation">Reservation</Link>
             </li>
             <li className='mx-4 my-6 lg:my-0'>
                 <Link className='cursor-pointer hover:bg-red-600 rounded-md transition-all p-1'
-                 to="Blog">Blog</Link>
+                 to="/blog">Blog</Link>
             </li>
             <li className='mx-4 my-6 lg:my-0'>
                 <Link className='cursor-pointer hover:bg-red-600 rounded-md transition-all p-1'
-                 to="Contact">Contact</Link>
+                 to="/contact">Contact</Link>
             </li>
         </ul>
 
@@ -107,32 +107,32 @@ function Home() {
                      transition-all cursor-pointer p-4'><Link to="/">Home</Link></li>
 
                     <li className='w-full text-center text-white list-none hover:bg-red-600
-                     transition-all cursor-pointer p-4'><Link to="About">About</Link></li>
+                     transition-all cursor-pointer p-4'><Link to="/about">About</Link></li>
 
                     <li className='w-full text-center text-white list-none hover:bg-red-600
-                     transition-all cursor-pointer p-4'><Link to="Recipe">Recipes</Link></li>
+                     transition-all cursor-pointer p-4'><Link to="/recipe">Recipes</Link></li>
 
                     <li className='w-full text-center text-white list-none hover:bg-red-600
-                     transition-all cursor-pointer p-4'><Link to="Gallery">Gallery</Link></li>
+                     transition-all cursor-pointer p-4'><Link to="/gallery">Gallery</Link></li>
 
                     <li className='w-full text-center text-white list-none hover:bg-red-600
-                     transition-all cursor-pointer p-4'><Link to="Gallery">Reservation</Link></li>
+                     transition-all cursor-pointer p-4'><Link to="/reservation">Reservation</Link></li>
 
                     <li className='w-full text-center text-white list-none  hover:bg-red-600
-                     transition-all cursor-pointer p-4'><Link to="Blog">Blog</Link></li>
+                     transition-all cursor-pointer p-4'><Link to="/blog">Blog</Link></li>
 
                     <li className='w-full text-center text-white list-none hover:bg-red-600
-                     transition-all cursor-pointer p-4'><Link to="Contact">Contact</Link></li>
+                     transition-all cursor-pointer p-4'><Link to="/contact">Contact</Link></li>
                 </div>
      </nav>    
      
      {/* Heros Text Part */}
-     <div className='absolute z-1 top-20 left-0 flex flex-col flex-wrap py-14 px-6 xl:py-24 lg:px-12'>
-        <span className='text-3xl text-red-600 '>Welcome to restuarent</span>
-        <h1 className='text-xl sm:text-5xl mt-6 text-white'>Good food starts with good <br/>
+     <div className='absolute z-1 top-20 left-0 flex flex-col flex-wrap py-2 px-6 xl:py-24 lg:px-12'>
+        <span className='sm:text-3xl text-red-600 '>Welcome to restuarent</span>
+        <h1 className='text-sm sm:text-3xl md:text-5xl sm:mt-6 text-white'>Good food starts with good <br/>
             ingridients.Have a great <br/>
              time with us</h1>
-        <button className='w-36 h-12 mt-6 uppercase bg-red-600 text-white
+        <button className='w-24 h-7 sm:w-36 sm:h-12 mt-1 sm:mt-6 text-xs sm:text-lg uppercase bg-red-600 text-white
         hover:bg-black' >View Menu</button>     
      </div>
 
@@ -142,7 +142,7 @@ function Home() {
                                  {/* Order Section */}
     <div className='w-full h-auto flex flex-wrap flex-col
       items-center'>
-        <div className='absolute  flex flex-wrap mt-[-30px] sm:mt-[-80px]'>
+        <div className='absolute  flex flex-wrap mt-2 sm:mt-[-80px]'>
             {/* Delicious Food */}
             <div className='py-16 px-14 bg-white border-b-2 border-x-2'>
             <i className='text-6xl text-gray-500'><LuSoup /></i>

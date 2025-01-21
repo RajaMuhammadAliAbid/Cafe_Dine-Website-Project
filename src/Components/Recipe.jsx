@@ -34,7 +34,7 @@ function Recipe() {
     <>
                               {/* Heros Section */}
      <div className='relative w-full h-auto'>
-        <img className='w-full h-[550px] ' src={heroImage2} alt="" />
+        <img className='w-full h-screen' src={heroImage2} alt="" />
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
 
        {/* NavBar */}
@@ -51,27 +51,27 @@ function Recipe() {
             </li>
             <li className='mx-4 my-6 lg:my-0'>
                 <Link className='cursor-pointer hover:bg-red-600 rounded-md transition-all p-1'
-                 to="About">About</Link>
+                 to="/about">About</Link>
             </li>
             <li className='mx-4 my-6 lg:my-0'>
                 <Link className='cursor-pointer hover:bg-red-600 rounded-md transition-all p-1'
-                 to="Recipe">Recipes</Link>
+                 to="/recipe">Recipes</Link>
             </li>
             <li className='mx-4 my-6 lg:my-0'>
                 <Link className='cursor-pointer hover:bg-red-600 rounded-md transition-all p-1'
-                 to="Gallery">Gallery</Link>
+                 to="/gallery">Gallery</Link>
             </li>
             <li className='mx-4 my-6 lg:my-0'>
                 <Link className='cursor-pointer hover:bg-red-600 rounded-md transition-all p-1'
-                 to="Reservation">Reservation</Link>
+                 to="/reservation">Reservation</Link>
             </li>
             <li className='mx-4 my-6 lg:my-0'>
                 <Link className='cursor-pointer hover:bg-red-600 rounded-md transition-all p-1'
-                 to="Blog">Blog</Link>
+                 to="/blog">Blog</Link>
             </li>
             <li className='mx-4 my-6 lg:my-0'>
                 <Link className='cursor-pointer hover:bg-red-600 rounded-md transition-all p-1'
-                 to="Contact">Contact</Link>
+                 to="/contact">Contact</Link>
             </li>
         </ul>
 
@@ -87,27 +87,27 @@ function Recipe() {
                      transition-all cursor-pointer p-4'><Link to="/">Home</Link></li>
 
                     <li className='w-full text-center text-white list-none hover:bg-red-600
-                     transition-all cursor-pointer p-4'><Link to="About">About</Link></li>
+                     transition-all cursor-pointer p-4'><Link to="/about">About</Link></li>
 
                     <li className='w-full text-center text-white list-none hover:bg-red-600
-                     transition-all cursor-pointer p-4'><Link to="Recipe">Recipes</Link></li>
+                     transition-all cursor-pointer p-4'><Link to="/recipe">Recipes</Link></li>
 
                     <li className='w-full text-center text-white list-none hover:bg-red-600
-                     transition-all cursor-pointer p-4'><Link to="Gallery">Gallery</Link></li>
+                     transition-all cursor-pointer p-4'><Link to="/gallery">Gallery</Link></li>
 
                     <li className='w-full text-center text-white list-none hover:bg-red-600
-                     transition-all cursor-pointer p-4'><Link to="Gallery">Reservation</Link></li>
+                     transition-all cursor-pointer p-4'><Link to="/reservation">Reservation</Link></li>
 
                     <li className='w-full text-center text-white list-none  hover:bg-red-600
-                     transition-all cursor-pointer p-4'><Link to="Blog">Blog</Link></li>
+                     transition-all cursor-pointer p-4'><Link to="/blog">Blog</Link></li>
 
                     <li className='w-full text-center text-white list-none hover:bg-red-600
-                     transition-all cursor-pointer p-4'><Link to="Contact">Contact</Link></li>
+                     transition-all cursor-pointer p-4'><Link to="/contact">Contact</Link></li>
                 </div>
      </nav>    
      
      {/* Heros Text Part */}
-     <div className='absolute z-1 top-20 flex flex-wrap px-4 lg:px-12 py-48'>
+     <div className='absolute z-1 w-full top-1/2 flex flex-wrap flex-col items-center'>
         <h1 className='text-5xl font-bold font-serif text-white'>Food Menu</h1>
      </div>
 
